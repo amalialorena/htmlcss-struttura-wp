@@ -17,11 +17,58 @@
 
 header {
     height: 100px;
+    /* regole di debug */
     background-color: rgb(235, 103, 224);
 }
 
-.main-section{
+.section1 {
+    margin:20px 0;
+    /* regole di debug */
     height: 500px;
     background-color: rgb(247, 228, 122);
-    margin:20px 0;
+    
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section2 {
+    padding-bottom: 20px;
+    /* regole di debug */
+    background-color: rgb(6, 141, 252); 
+ 
+}
+
+.title {
+    height: 60px;
+    margin-bottom: 20px;
+    /* regole di debug */
+    background-color: rgb(156, 217, 245);
+}
+
+
+.column1, .column2, .column3{
+    width: 23%;
+    float: left;
+    /* regole di debug */
+    background-color:rgb(156, 217, 245);
+    height: 700px;
+    
+}
+
+.column2 {
+    width: 50%;
+    margin: 0 2%;
+    /* regole di debug */
+    height: 700px;
+    
+}
+
+footer {
+    margin-top: 10px;
+     /* regole di debug */
+     height: 50px;
+    background-color: rgb(198, 46, 245);
 }
