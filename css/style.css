@@ -50,7 +50,7 @@ header {
 
 
 .column1, .column2, .column3{
-    width: 23%;
+    width: 24%;
     float: left;
     /* regole di debug */
     background-color:rgb(156, 217, 245);
@@ -60,7 +60,7 @@ header {
 
 .column2 {
     width: 50%;
-    margin: 0 2%;
+    margin: 0 1%;
     /* regole di debug */
     height: 700px;
     
