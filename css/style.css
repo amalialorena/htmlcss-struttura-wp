@@ -1,0 +1,27 @@
+
+/* generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole di debug */
+
+.page-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(235, 103, 224);
+}
+
+.main-section{
+    height: 500px;
+    background-color: rgb(247, 228, 122);
+    margin:20px 0;
+}
